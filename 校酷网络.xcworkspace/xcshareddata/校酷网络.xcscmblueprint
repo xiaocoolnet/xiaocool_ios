@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8F114A9AD92DAD765697EE919844C7B88A708F38",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "58411C625D72211DA6C24123CA2FC7088B70CB73" : 0,
+    "8F114A9AD92DAD765697EE919844C7B88A708F38" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7CB252A7-065B-4EB8-A988-0EE26017A7EA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "58411C625D72211DA6C24123CA2FC7088B70CB73" : "%E6%A0%A1%E9%85%B7%E7%BD%91%E7%BB%9C\/xiacool_ios\/",
+    "8F114A9AD92DAD765697EE919844C7B88A708F38" : "xiaocool\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "校酷网络",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "校酷网络.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xiaocoolnet\/xiacool_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "58411C625D72211DA6C24123CA2FC7088B70CB73"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xiaocoolnet\/xiaocool_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8F114A9AD92DAD765697EE919844C7B88A708F38"
+    }
+  ]
+}
