@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProjectInfoViewController" customModule="校酷网络" customModuleProvider="target">
+            <connections>
+                <outlet property="infoTextView" destination="X4L-HI-qQb" id="QEw-LR-DvC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入项目简介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3yK-Vh-JCq">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Xdu-2M-QTi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Xdu-2M-QTi"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="Xdu-2M-QTi"/>
+                        </mask>
+                    </variation>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="X4L-HI-qQb">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="rDC-8O-G46"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="rDC-8O-G46"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="rDC-8O-G46"/>
+                        </mask>
+                    </variation>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FN3-ST-yov">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <color key="backgroundColor" red="0.25636300699999998" green="0.73335970120000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Eyn-X7-s4F"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="完成">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Eyn-X7-s4F"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="Eyn-X7-s4F"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="finishedBtn:" destination="-1" eventType="touchUpInside" id="2Im-AH-KJB"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="FN3-ST-yov" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2a4-cm-O1h"/>
+                <constraint firstAttribute="trailing" secondItem="X4L-HI-qQb" secondAttribute="trailing" id="6RS-tl-Uc2"/>
+                <constraint firstItem="3yK-Vh-JCq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="9tS-WA-QX3"/>
+                <constraint firstItem="FN3-ST-yov" firstAttribute="top" secondItem="X4L-HI-qQb" secondAttribute="bottom" constant="50" id="HLV-Pc-glL"/>
+                <constraint firstItem="X4L-HI-qQb" firstAttribute="top" secondItem="3yK-Vh-JCq" secondAttribute="bottom" id="eNf-fh-eyU"/>
+                <constraint firstAttribute="trailing" secondItem="3yK-Vh-JCq" secondAttribute="trailing" id="kEY-5d-P3K"/>
+                <constraint firstItem="X4L-HI-qQb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qGM-xx-ncu"/>
+                <constraint firstItem="3yK-Vh-JCq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rWn-2s-P9B"/>
+                <constraint firstAttribute="trailing" secondItem="FN3-ST-yov" secondAttribute="trailing" id="rlf-er-D42"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="3yK-Vh-JCq"/>
+                    <exclude reference="X4L-HI-qQb"/>
+                    <exclude reference="FN3-ST-yov"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="2a4-cm-O1h"/>
+                    <exclude reference="HLV-Pc-glL"/>
+                    <exclude reference="rlf-er-D42"/>
+                    <exclude reference="9tS-WA-QX3"/>
+                    <exclude reference="kEY-5d-P3K"/>
+                    <exclude reference="rWn-2s-P9B"/>
+                    <exclude reference="6RS-tl-Uc2"/>
+                    <exclude reference="eNf-fh-eyU"/>
+                    <exclude reference="qGM-xx-ncu"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="3yK-Vh-JCq"/>
+                    <include reference="X4L-HI-qQb"/>
+                    <include reference="FN3-ST-yov"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="2a4-cm-O1h"/>
+                    <include reference="HLV-Pc-glL"/>
+                    <include reference="rlf-er-D42"/>
+                    <include reference="9tS-WA-QX3"/>
+                    <include reference="kEY-5d-P3K"/>
+                    <include reference="rWn-2s-P9B"/>
+                    <include reference="6RS-tl-Uc2"/>
+                    <include reference="eNf-fh-eyU"/>
+                    <include reference="qGM-xx-ncu"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="522.5" y="343.5"/>
+        </view>
+    </objects>
+</document>

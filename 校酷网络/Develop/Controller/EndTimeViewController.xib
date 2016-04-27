@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EndTimeViewController" customModule="校酷网络" customModuleProvider="target">
+            <connections>
+                <outlet property="endTimeTextView" destination="642-Am-wQc" id="jEp-AC-r1a"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="截止到后天" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="642-Am-wQc">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="vhV-8t-d7x"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="vhV-8t-d7x"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="vhV-8t-d7x"/>
+                        </mask>
+                    </variation>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="642-Am-wQc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="UGP-y2-myE"/>
+                <constraint firstAttribute="trailing" secondItem="642-Am-wQc" secondAttribute="trailing" id="ne9-qO-HMM"/>
+                <constraint firstItem="642-Am-wQc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="vmF-XJ-GXS"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="642-Am-wQc"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="UGP-y2-myE"/>
+                    <exclude reference="ne9-qO-HMM"/>
+                    <exclude reference="vmF-XJ-GXS"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="642-Am-wQc"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="UGP-y2-myE"/>
+                    <include reference="ne9-qO-HMM"/>
+                    <include reference="vmF-XJ-GXS"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="86.5" y="-29.5"/>
+        </view>
+    </objects>
+</document>
